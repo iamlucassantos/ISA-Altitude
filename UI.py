@@ -1,4 +1,4 @@
-from stdatmos import calculator
+from functionISA import calculator
 
 print('***** ISA calculator troposphere *****')
 print('1. Calculate ISA for altitude in meters')
@@ -25,10 +25,6 @@ if altitude>86000 or altitude<0:
 
 
 t1,p1,dens = calculator(altitude)
-
-
-
-
 
 
 print('Temperature:',round(t1,2),'K (',round(t1-273.15,2),'\'C)')
