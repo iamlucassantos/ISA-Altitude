@@ -33,6 +33,5 @@ def calculator(altitudeinput):
 
     t1,p1,dens= atmosjump(101325.0 ,288.15, altitudeinput)
 
-    
     return(t1,p1,dens)
 
